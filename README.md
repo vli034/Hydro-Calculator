@@ -21,3 +21,8 @@ Simple calculator assignment built in Swift4 and Xcode10. The user enters their 
 - Landscape view 
 - Minor UI details 
 - Storing user credentials and displaying them on TotalVC 
+
+
+# Resources 
+Images were created by myself with the assistance of https://www.canva.com/
+App Icons generator used by https://appicon.co
