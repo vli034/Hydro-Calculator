@@ -3,5 +3,21 @@ Simple calculator assignment built in Swift4 and Xcode10. The user enters their 
 
 # Propsed User Interface Design 
 
-<img width="200" alt="Webp net-resizeimage (13)" src="https://user-images.githubusercontent.com/39067937/65834019-c9d1e200-e2a4-11e9-90cf-b069514099d8.png">
-<img width="214" alt="Webp net-resizeimage (14)" src="https://user-images.githubusercontent.com/39067937/65834025-d6eed100-e2a4-11e9-99fa-488e62a0e64d.png">
+<img width="219" alt="Webp net-resizeimage (15)" src="https://user-images.githubusercontent.com/39067937/65834063-3220c380-e2a5-11e9-996e-731a0ca709d2.png">   <img width="214" alt="Webp net-resizeimage (14)" src="https://user-images.githubusercontent.com/39067937/65834025-d6eed100-e2a4-11e9-99fa-488e62a0e64d.png"> 
+
+
+# Final User Interface Design 
+<img width="214" alt="Webp net-resizeimage (18)" src="https://user-images.githubusercontent.com/39067937/65834209-de16de80-e2a6-11e9-86d3-7bf1a53730f4.png">    <img width="214" alt="Webp net-resizeimage (17)" src="https://user-images.githubusercontent.com/39067937/65834182-7f516500-e2a6-11e9-9460-574fbf061e5d.png">
+
+# Elements used in this app
+
+- Auto layout constraints 
+- Navigation controller - maintaining navigation stack 
+- Implemented proper and user-friendly keyboard type and use for each text field. ( I.e number pad and dismissing keyboard when hitting enter or touching on screen)
+
+
+# Elements that need work 
+
+- Landscape view 
+- Minor UI details 
+- Storing user credentials and displaying them on TotalVC 
