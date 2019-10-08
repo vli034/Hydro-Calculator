@@ -2,6 +2,7 @@
 //  ViewController.swift
 //  VanessaLi_Hydro
 //
+/// VANESSA LI - 991508257 - ASSIGNMENT 1 / 2 
 //  Created by Vanessa Li on 2019-09-28.
 //  Copyright © 2019 Vanessa Li. All rights reserved.
 //
@@ -14,6 +15,8 @@ class HomeControllerVC: UIViewController, UITextFieldDelegate {
     var onPeak: String = ""
     var midPeak: String = ""
     var offPeak : String = ""
+    var email : String = ""
+    var phone : String = ""
     var value1 : Double = 0.0
     var value2 : Double = 0.0
     var value3 : Double = 0.0
@@ -25,6 +28,11 @@ class HomeControllerVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var onPeakInput: UITextField!
     @IBOutlet weak var midPeakInput: UITextField!
     @IBOutlet weak var offPeakInput: UITextField!
+    
+    
+    @IBOutlet weak var labelEmail: UITextField!
+    @IBOutlet weak var labelPhoneNum: UITextField!
+    
     
  
     // this function is the function that is loaded when our application first starts
@@ -53,19 +61,30 @@ class HomeControllerVC: UIViewController, UITextFieldDelegate {
         midPeakInput.endEditing(true)
         offPeakInput.endEditing(true)
     }
-
     
+    //Storing the email address and the phone number and displaying it on terminal
+    // i used a function bc the assignment does not ask us to pass this data so i had isolated this specific instance 
+    func emailAndPhone(){
+        // print to terminal -- might need to scroll pass the constraint warnings to see the values
+        print(labelEmail.text!)
+        print(labelPhoneNum.text!)
+    
+    }
+
     
     //Action functions - Calculate Button
     @IBAction func calculateButton(_ sender: UIButton) {
         validatingInput()
-        
+        emailAndPhone()
         // manually resetting textfields to empty string
         onPeakInput.text = ""
         midPeakInput.text = ""
         offPeakInput.text = ""
         phoneTextInput.text = ""
-        emailTextInput.text = "" 
+        emailTextInput.text = ""
+        labelEmail.text = ""
+        labelPhoneNum.text = ""
+        
     }
     
     
@@ -102,6 +121,7 @@ class HomeControllerVC: UIViewController, UITextFieldDelegate {
     
     //Navigate to Next Story board that Displays the data
     func navigateToNextStoryBoard(){
+     
         let nextStoryBoard = UIStoryboard(name: "Main", bundle: nil)
         let totalVC = nextStoryBoard.instantiateViewController(withIdentifier: "TotalAmountID") as! TotalAmountVC
         // passing our  global values from user input to next screen ( TotalVC) via assignment

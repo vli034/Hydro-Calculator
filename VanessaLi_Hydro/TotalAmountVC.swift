@@ -2,6 +2,7 @@
 //  TotalAmountVC.swift
 //  VanessaLi_Hydro
 //
+/// VANESSA LI - 991508257 - ASSIGNMENT 1 / 2 
 //  Created by Vanessa Li on 2019-09-28.
 //  Copyright © 2019 Vanessa Li. All rights reserved.
 //

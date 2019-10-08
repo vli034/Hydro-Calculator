@@ -60,7 +60,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaF-gK-Nb1">
                                         <rect key="frame" x="21" y="19" width="108" height="21"/>
@@ -229,6 +229,8 @@
                     <navigationItem key="navigationItem" id="MR5-Ko-db8"/>
                     <connections>
                         <outlet property="emailTextInput" destination="3Hu-7J-Qr7" id="aMW-zD-ltH"/>
+                        <outlet property="labelEmail" destination="3Hu-7J-Qr7" id="qAP-Sz-FNj"/>
+                        <outlet property="labelPhoneNum" destination="Ifw-Eh-Ezd" id="4oO-WG-3Ha"/>
                         <outlet property="midPeakInput" destination="HoF-sw-bF9" id="Jkk-cG-cNf"/>
                         <outlet property="offPeakInput" destination="MwI-uJ-n5u" id="o2r-Td-dW5"/>
                         <outlet property="onPeakInput" destination="cxB-1s-KaT" id="swG-h2-FSc"/>
@@ -467,10 +469,12 @@
                                     <constraint firstAttribute="width" constant="414" id="VQj-lb-Igv"/>
                                     <constraint firstItem="LfM-5t-Jvt" firstAttribute="leading" secondItem="0Rw-ek-Vri" secondAttribute="trailing" constant="164" id="X6L-sG-qjC"/>
                                     <constraint firstAttribute="trailing" secondItem="Khp-yp-t2K" secondAttribute="trailing" constant="9" id="YbD-eH-ISb"/>
+                                    <constraint firstItem="LfM-5t-Jvt" firstAttribute="centerY" secondItem="BAP-6F-yBM" secondAttribute="centerY" id="ZIr-lY-rIC"/>
                                     <constraint firstItem="FMq-b2-m7f" firstAttribute="leading" secondItem="BAP-6F-yBM" secondAttribute="leading" constant="24" id="bSl-Hh-uIK"/>
                                     <constraint firstItem="2Wo-3p-U5w" firstAttribute="firstBaseline" secondItem="CJe-8F-v0z" secondAttribute="baseline" id="cHH-pS-7YF"/>
                                     <constraint firstAttribute="trailing" secondItem="4Ad-vR-5Yq" secondAttribute="trailing" constant="9" id="cy4-ee-2QA"/>
                                     <constraint firstItem="CJe-8F-v0z" firstAttribute="leading" secondItem="2Wo-3p-U5w" secondAttribute="trailing" constant="158" id="d62-5F-iXQ"/>
+                                    <constraint firstItem="0Rw-ek-Vri" firstAttribute="centerY" secondItem="BAP-6F-yBM" secondAttribute="centerY" id="dA1-IB-FZf"/>
                                     <constraint firstItem="Khp-yp-t2K" firstAttribute="top" secondItem="LfM-5t-Jvt" secondAttribute="bottom" constant="40" id="dI0-Nn-GSG"/>
                                     <constraint firstItem="pIU-Mt-bK8" firstAttribute="leading" secondItem="PVP-0X-dPa" secondAttribute="trailing" constant="192" id="dbv-AI-4xI"/>
                                     <constraint firstAttribute="trailing" secondItem="CJe-8F-v0z" secondAttribute="trailing" constant="9" id="dnu-BD-V8L"/>
