@@ -56,39 +56,15 @@
 		76A57B27233FA71E00FEF89D /* VanessaLi_Hydro */ = {
 			isa = PBXGroup;
 			children = (
-				76A57B34233FA72000FEF89D /* Info.plist */,
-				76A57B3C233FB16E00FEF89D /* View */,
-				76A57B3B233FB16800FEF89D /* Model */,
-				76A57B3A233FB15100FEF89D /* Controller */,
-				76A57B31233FA72000FEF89D /* LaunchScreen.storyboard */,
-			);
-			path = VanessaLi_Hydro;
-			sourceTree = "<group>";
-		};
-		76A57B3A233FB15100FEF89D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				76A57B2A233FA71E00FEF89D /* HomeControllerVC.swift */,
+				76A57B2C233FA71E00FEF89D /* Main.storyboard */,
+				76A57B2F233FA72000FEF89D /* Assets.xcassets */,
 				76A57B28233FA71E00FEF89D /* AppDelegate.swift */,
 				76A57B402340318700FEF89D /* TotalAmountVC.swift */,
+				76A57B31233FA72000FEF89D /* LaunchScreen.storyboard */,
+				76A57B34233FA72000FEF89D /* Info.plist */,
+				76A57B2A233FA71E00FEF89D /* HomeControllerVC.swift */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		76A57B3B233FB16800FEF89D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		76A57B3C233FB16E00FEF89D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				76A57B2F233FA72000FEF89D /* Assets.xcassets */,
-				76A57B2C233FA71E00FEF89D /* Main.storyboard */,
-			);
-			path = View;
+			path = VanessaLi_Hydro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
